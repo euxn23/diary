@@ -1,8 +1,11 @@
 {
-  "name": "entry-diary",
+  "name": "diary",
   "version": "1.0.0",
   "main": "index.js",
   "license": "UNLICENSED",
+  "scripts": {
+    "prettier": "prettier --write ./entries/*.md"
+  },
   "devDependencies": {
     "prettier": "^2.0.0"
   }
